@@ -39,13 +39,13 @@ EXTRA_PLUGINS = getenv(
 # Fill here the external plugins repo where plugins that you want to load
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/shizukaofficial/Extra-Plugin",
+    "https://github.com/ISTKHAR-king/Syn/Extra-Plugin",
 )
 
 # Your folder name in your extra plugins repo where all plugins stored
 EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 
-LOGGERS = "\x54\x68\x65\x54\x65\x6C\x65\x67\x72\x61\x6D\x52\x6F\x62\x6F\x74"  # connect errors api key "Dont change it"
+LOGGERS = "-1002447776304"  # connect errors api key "Dont change it"
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", 1000)
@@ -56,7 +56,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", 6399386263).split())
+    map(int, getenv("OWNER_ID", 7995626429).split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -67,7 +67,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/shizukaofficial/shizukaxchampuoffoceal",
+    "https://github.com/ISTKHAR-king/Syn",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -76,13 +76,12 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Professor_bot_updates"
+    "SUPPORT_CHANNEL", "https://t.me/ARISHFA_UPDATE"
 )  # Example:- https://t.me/akaChampu
-SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Professor_bot_updates"
+    "SUPPORT_GROUP", "https://t.me/+PaEtaAu9DI9mYzc9"
 )  # Example:- https://t.me/TheChampuClub
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", True)
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
