@@ -56,7 +56,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", 7995626429).split())
+    map(int, getenv("OWNER_ID", 6399386263).split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -77,10 +77,10 @@ GIT_TOKEN = getenv(
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/ARISHFA_UPDATE"
-
+)  # Example:- https://t.me/akaChampu
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Professor_bot_updates"
- 
+    "SUPPORT_GROUP", "https://t.me/+PaEtaAu9DI9mYzc9"
+)  # Example:- https://t.me/TheChampuClub
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 
@@ -340,4 +340,4 @@ if TELEGRAM_VIDEO_URL:
         if not re.match("(?:http|https)://", TELEGRAM_VIDEO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
-            )
+)
